@@ -2,7 +2,7 @@
   <footer class="footer pb-5">
     <div class="content has-text-centered">
       <div v-if="disclaimer" class="footpad footer-disclaimer">
-        <span class="disclaimer-head">Disclaimer:</span> &nbsp; Our resources are only for learning and communication, not for any commercial use. Please abide by the laws and regulations of your country, and any illegal behavior shall be borne by the user himself.
+        <span class="disclaimer-head">Disclaimer:</span> &nbsp; If you can't play the video open it in external player (It's the first button from the left below video). If you can't see any files just refresh the page once.
       </div>
       <div v-if="footerLogo" class="footpad footimage">
         <img width="150" height="75" class="gloryimage" :src="footerLogoLink">
